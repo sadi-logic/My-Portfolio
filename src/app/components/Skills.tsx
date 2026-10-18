@@ -35,7 +35,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl space-y-12">
-        {/* Section Header */}
+
         <div className="text-center space-y-2">
           <p className="text-xs uppercase tracking-widest font-semibold text-sky-500">
             Technical Proficiency

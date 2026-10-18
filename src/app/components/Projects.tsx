@@ -20,7 +20,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${projects.length >= 3 ? "lg:grid-cols-3" : "max-w-4xl mx-auto"} gap-8`}>
           {projects.map((project) => (
             <div
               key={project.id}

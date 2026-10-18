@@ -121,8 +121,7 @@ export default function Hero() {
         {/* Right Column: Profile Image Presentation */}
         <div className="relative group flex items-center justify-center">
           {/* Subtle spinning animated decorative ring */}
-          <div className="absolute -inset-2 rounded-full bg-gradient-to-tr from-sky-500 via-indigo-500 to-purple-600 opacity-60 blur-md group-hover:opacity-90 transition duration-500" />
-
+          <div className="absolute -inset-2 rounded-full bg-[conic-gradient(from_0deg,#2dd4bf,#0ea5e9,#4f46e5,#2dd4bf)] opacity-60 blur-md group-hover:opacity-90 transition duration-500 animate-[spin_8s_linear_infinite]" />
           {/* Profile Card Container */}
           <div className="relative w-64 h-64 sm:w-76 sm:h-76 md:w-84 md:h-84 rounded-full overflow-hidden p-1.5 bg-base-100 shadow-2xl">
             <div className="relative w-full h-full rounded-full overflow-hidden bg-slate-900/10">

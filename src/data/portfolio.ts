@@ -41,7 +41,7 @@ export const personalDetails = {
   status: "Available for internships & freelance",
   email: "sadullasadi99@gmail.com",
   location: "Mymensingh, Bangladesh",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Sadi_Resume.pdf",
   college: "National University, Bangladesh",
   degree: "B.Sc. in Computer Science & Engineering",
   graduationYear: "Expected 2026",
@@ -137,14 +137,5 @@ export const projects: Project[] = [
     image: bazarDorImg,
     featured: true,
   },
-  {
-    id: 3,
-    title: "Task & Habit Tracker",
-    description:
-      "Productivity dashboard featuring daily task management, status tagging, local state caching, and progress metrics.",
-    tags: ["React", "JavaScript", "REST APIs", "Tailwind CSS"],
-    demoUrl: "https://example.com/task-tracker",
-    githubUrl: "https://github.com/sadi-logic",
-    featured: false,
-  },
 ];
+

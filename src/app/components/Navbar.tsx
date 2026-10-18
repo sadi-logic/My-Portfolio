@@ -14,11 +14,11 @@ const subscribeTheme = (callback: () => void) => {
 };
 
 const getThemeSnapshot = (): "dark" | "light" => {
-  if (typeof window === "undefined") return "dark";
-  return (localStorage.getItem("portfolio-theme") as "dark" | "light") || "dark";
+  if (typeof window === "undefined") return "light";
+  return (localStorage.getItem("portfolio-theme") as "dark" | "light") || "light";
 };
 
-const getThemeServerSnapshot = () => "dark" as const;
+const getThemeServerSnapshot = () => "light" as const;
 
 export default function Navbar() {
   const theme = useSyncExternalStore(subscribeTheme, getThemeSnapshot, getThemeServerSnapshot);
